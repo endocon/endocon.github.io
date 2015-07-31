@@ -80,6 +80,10 @@ main = hakyllWith hakyllConfig $ do
             postTemplateOut <- loadAndApplyTemplate postTemplate subHeadingCtx pandocOut
             applyDefaultTemplate subHeadingCtx postTemplateOut
 
+    match "../bootstrap-templates/*" $ do
+        route idRoute
+        compile copyFileCompiler
+
 -- | For posts, add a @date@ field to the default context.
 postCtx :: Context String
 postCtx = dateField "date" "%B %e, %Y" `mappend`
