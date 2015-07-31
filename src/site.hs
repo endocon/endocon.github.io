@@ -80,7 +80,9 @@ main = hakyllWith hakyllConfig $ do
             postTemplateOut <- loadAndApplyTemplate postTemplate subHeadingCtx pandocOut
             applyDefaultTemplate subHeadingCtx postTemplateOut
 
-    match "bootstrap-templates/*" $ do
+    -- these are just example sites to get ideas from when designing
+    -- our site
+    match "bootstrap-templates/**" $ do
         route idRoute
         compile copyFileCompiler
 
