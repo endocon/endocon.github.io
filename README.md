@@ -20,7 +20,7 @@ is installed on your `PATH`, the following Makefile targets can be used.
 
 ### Installing GHC
 
-`stack` will install `ghc` for you.
+`stack` will install `ghc` for you.  This can take a few minutes.
 
 ```
 $ stack setup
@@ -34,7 +34,8 @@ $ stack setup
 The following `Makefile` targets are available.  They can be used to generate
 the site and push it live.
 
-The preprocessed HTML and Markdown files are in `preprocessed-site/`.  The generated site will be placed in `generated-site/`.
+The preprocessed HTML and Markdown files are in `preprocessed-site/`.  The
+generated site will be placed in `generated-site/`.
 
 ### Build the Hakyll Binary, `site`
 
@@ -48,6 +49,10 @@ the site.
 
 After being built, the `site` binary will be placed somewhere like
 `.stack-work/.../bin/site`.
+
+The first time you run `make build` or `make site`, all of the required Haskell libraries have to be downloaded and built.  This can take up to 30 minutes.
+
+However, subsequent builds will be very fast.
 
 ### Building the Blog
 
