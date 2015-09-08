@@ -14,10 +14,13 @@ http://unbounce.com/landing-pages/7-elements-of-a-winning-landing-page/
 	a. Main Headline
 
 		- Endo Consulting
+		- Dennis and Nolan Consulting
+		- 
 
 	b. Supporting Headline
 
 		- Creating Apps that Increase Your Profits
+		- Creating Apps that Reach Out to your Customers
 
 	c. Reinforcement Statement
 
@@ -35,13 +38,20 @@ http://unbounce.com/landing-pages/7-elements-of-a-winning-landing-page/
 
 	- Raise your profits with a custom app and backend sever.
 
-	- Increase conversion with a smart phone app that connects to your product
+	- Increase conversion with a smartphone app that connects to your product
 	  offerings.
 
-	- Create an interactive in-store experience for customers to get a better
-	  feel for your products.
+	- Allow customers to browse your product catalog through a tablet or
+	  smartphone app.
 
-	- ...
+	- Allow you to have a renewed customer experience by updating your
+	  currently out-of-date applications.
+
+	- We will turn your idea into a prototype so you can easily continue with
+	  market testing.
+
+	- We do all the thinking so you don't have to.  No idea?  We'll come up
+	  with one that fits with your business.
 
 4. Social proof
 
@@ -52,30 +62,29 @@ http://unbounce.com/landing-pages/7-elements-of-a-winning-landing-page/
 
 	a. Form Header
 
-		- Start a Discussion
+		- Tell Us Your Thoughts
 
 	b. Explanation
 
 		- Email us to start a discussion about how we can create an app to make
 		  you more money.  We might even be able to point you towards a product
-		  that already exists.  No need to spend money to build it if it
-		  already exists!
+		  that already exists.  No need to spend money to reinvent the wheel.
 
 	c. Call to Action Button
 
-		- Start a Conversation
+		- Start a Discussion
 
-6. Biographies
-
-	- Nolan
-		* (picture)
-		* Interested in creating interactive smart phone apps that maximize
-		  conversion.
-
-	- Dennis
-		* (picture)
-		* Interested in distributed systems, as well as creating worry-free
-		  backend systems that increase profits.
+# 6. Biographies
+# 
+# 	- Nolan
+# 		* (picture)
+# 		* Interested in creating interactive smart phone apps that maximize
+# 		  conversion.
+# 
+# 	- Dennis
+# 		* (picture)
+# 		* Interested in distributed systems, as well as creating worry-free
+# 		  backend systems that increase profits.
 
 ## TODO
 
