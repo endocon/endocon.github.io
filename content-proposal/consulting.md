@@ -15,20 +15,23 @@ http://unbounce.com/landing-pages/7-elements-of-a-winning-landing-page/
 
 		- Endo Consulting
 		- Dennis and Nolan Consulting
-		- 
+		-
 
 	b. Supporting Headline
 
-		- Creating Apps that Increase Your Profits
-		- Creating Apps that Reach Out to your Customers
+		# - Creating Apps that Increase Your Profits
+		- Creating apps that reach out and pull in your customers
 
 	c. Reinforcement Statement
 
-		- Creating apps that make you more money is what we do best.
+		# - Creating apps that make you more money is what we do best.
+		- Get into the social media scene with your first smartphone
+		  app
 
 	d. Closing argument
 
 		- No harm in contacting us with an *idea*.
+		- Contact us.  We want to hear your idea.
 
 2. Photos/Videos
 
