@@ -48,17 +48,17 @@ deploy: site
 	# Make sure this temporary working directory is empty.
 	# (TODO: Really we should be using a directory with a random filename,
 	# generated with something like mktemp.)
-	rm -rf /tmp/endocon-deploy/
-	mkdir /tmp/endocon-deploy/
+	rm -rf /tmp/keesys-deploy/
+	mkdir /tmp/keesys-deploy/
 	# Copy the generated site to the temp directory.
-	cp -r generated-site /tmp/endocon-deploy/
+	cp -r generated-site /tmp/keesys-deploy/
 	# Checkout the gh-pages branch.
 	git checkout master
 	# Remove the pages for the current site.
 	git rm -r -f --ignore-unmatch *
 	git status
 	# Copy all of the generated site's files to the current directory.
-	cp -r /tmp/endocon-deploy/generated-site/* ./
+	cp -r /tmp/keesys-deploy/generated-site/* ./
 	# Add everything back.  (A lot of files probably won't change, so, for
 	# instance, they won't show up on 'git status' even though we just did 'git
 	# rm -rf *'.  A 'git rm -rf FILE' followed by 'git add FILE' is a noop if
@@ -70,7 +70,7 @@ deploy: site
 	git push origin master
 	# Go back to master.
 	git checkout framework
-	rm -rf /tmp/endocon-deploy
+	rm -rf /tmp/keesys-deploy
 
 # Alias for deploy.
 release: deploy

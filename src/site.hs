@@ -27,6 +27,11 @@ main = hakyllWith hakyllConfig $ do
     -- templates for other routes
     match "templates/*" $ compile templateCompiler
 
+    -- github pages CNAME file
+    match "CNAME" $ do
+        route idRoute
+        compile copyFileCompiler
+
     -- images
     match "images/*" $ do
         route idRoute
